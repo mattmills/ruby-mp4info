@@ -35,7 +35,8 @@ class MP4Info
       "NAM" => nil, "RTNG" => nil, "TMPO" => nil, "TOO" => nil,
       "TRKN" => nil, "WRT" => nil, "APID" => nil, "AKID" => nil,
       "ATID" => nil, "CNID" => nil, "GEID" => nil, "PLID" => nil,
-      "TITL" => nil, "DSCP" => nil, "PERF" => nil, "AUTH" => nil
+      "TITL" => nil, "DSCP" => nil, "PERF" => nil, "AUTH" => nil,
+      "UDATA"=> nil
     }
     
     # Info atoms
