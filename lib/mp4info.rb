@@ -35,15 +35,15 @@ class MP4Info
       "NAM" => nil, "RTNG" => nil, "TMPO" => nil, "TOO" => nil,
       "TRKN" => nil, "WRT" => nil, "APID" => nil, "AKID" => nil,
       "ATID" => nil, "CNID" => nil, "GEID" => nil, "PLID" => nil,
-      "TITL" => nil, "DSCP" => nil, "PERF" => nil, "AUTH" => nil,
-      "UDATA"=> nil
+      "TITL" => nil, "DSCP" => nil, "PERF" => nil, "AUTH" => nil
     }
     
     # Info atoms
     @info_atoms = {
       "VERSION" => nil, "BITRATE" => nil, "FREQUENCY" => nil, "MS" => nil,
       "SIZE" => nil, "SECS" => nil, "MM" => nil, "SS" => nil, "ENCRYPTED" => nil,
-      "TIME" => nil, "COPYRIGHT" => nil, "LAYER" => nil
+      "TIME" => nil, "COPYRIGHT" => nil, "LAYER" => nil,
+      "UDATA"=> nil
     }
 
     # Atoms that contain other atoms
