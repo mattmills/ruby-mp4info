@@ -262,7 +262,7 @@ class MP4Info
     #
     # Post-condition: io_stream points past end of atom contents
     def parse_stsd(io_stream, level, size)
-      raise "Parse error" if size < 44
+      #raise "Parse error" if size < 44
       data = read_or_raise(io_stream, size, "Premature end of headers")
       
       printf "  %sSample=%s\n", ' ' * ( 2 * level ), data[12..15] if $DEBUG
